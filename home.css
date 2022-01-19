@@ -1,0 +1,98 @@
+html {
+	background-image:url("pictures/homebackground1.jpg");
+	background-size: cover;
+	background-positon: center;
+
+}
+
+main {
+	padding: 5px 100px;
+	border: 5px solid black;
+	
+}
+p {
+	padding: 25px 0px;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+h1 {
+	margin-top: 25px;
+	text-align: center;
+	
+}
+p a{
+	color: red;
+}
+
+section.uses {
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	
+}
+ section.versatility img{
+	margin-bottom: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid black;
+}
+section.versatility p{
+
+	padding: 10px 50px;
+	line-height: 2em;
+}
+
+
+section.image{
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+section.image img{
+	width: 200px;
+	height: 200px;
+	border: 3px solid black;
+	border-radius: 100px;
+	margin-top: 50%;
+}
+section.text {
+	display: inline-block;
+	width: 60%;
+	margin: auto 5px;
+	text-align: center;
+	padding: 25px;
+	line-height: 1.5em;
+	float: right;
+}
+h1 {
+	border: 3px solid black;
+	background: lightgray;
+}
+section.huntingtext {
+	display: inline-block;
+	width: 60%;
+	margin: auto 5px;
+	text-align: center;
+	padding: 25px;
+	line-height: 1.5em;
+	float: left;
+}
+section.huntingimage {
+	width: 30%;
+	display: inline-block;
+	float: right;
+}
+section.huntingimage img{
+	width: 200px;
+	height: 200px;
+	border: 3px solid black;
+	border-radius: 100px;
+	margin-top: 50%;
+}
+section.uses::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+

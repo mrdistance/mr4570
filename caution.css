@@ -1,0 +1,28 @@
+html {
+	background-image: url("pictures/cautionbackground1.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+section{
+	margin: 50px 100px;
+	padding: 25px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 3px solid white;
+	
+	
+}
+main ul{
+	margin: 25px 50px;
+}
+li {
+	margin: 25px 0px;
+}
+p{
+	line-height: 2em;
+}
+main{
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+}

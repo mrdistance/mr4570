@@ -1,0 +1,127 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<!--Calculators Page For MR 45 70
+		Author: Joshua Call
+		Date: April 18, 2019-->
+		<!--[if lt IE 8]>
+			<p>Update your browser to view this page</p>
+		<![endif]-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153618105-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153618105-1');
+</script>
+
+
+	<meta charset="utf-8"/>
+	<meta name="keywords" content = "45-70, leveraction, lever action, marlin gbl, guide gun, aluminum bullets, load data"/>
+	<title>MR 45-70</title>
+	<link href="template.css" rel="stylesheet"/>
+	<link href="calculators.css" rel="stylesheet"/>
+	<script src="calculatorScript.js"></script>
+
+</head>
+<!--=========================BODY====================================-->
+<body>
+
+	<header>
+		<!--This is just space for a background image-->
+	</header>
+
+	<nav class="mainpages">
+		<ul>
+			<li><a href="home.html"><img src="pictures/home.jpg"/></a></li>
+			<li><a href="howto.html"><img src="pictures/howto.jpg"/></a></li>
+			<li><a href="loaddata.html"><img src="pictures/loaddata.jpg"/></a></li>
+			<li><a href="caution.html"><img src="pictures/caution.jpg"/></a></li>
+			<li><a href="videos.html"><img src="pictures/videos.jpg"/></a></li>
+			<li><a href="calculators.html"><img src="pictures/calculators.jpg"/></a></li>
+		</ul>
+	</nav>
+
+	<main>
+
+			<section>
+				<p><h1>BULLET ENERGY</h1>Please enter your bullet weight in grains and velocity in FPS to calculate Energy In Ft/Lbs<br>Common Bullet Energies At The Muzzle<br>22lr: 100-200<br>9mm: 300-500<br>223/556 Nato: 1200-1400<br>30-06 Springfield: 2500-3000<br>50 BMG:10,000-14,000</p>
+				<form id = "form1">
+					BulletWeight: <input name="BulletWeight" type="text" size = "5">
+					BulletVelocity: <input name ="BulletVelocity" type="text" size = "5">
+					BulletEnergy: <output name = "Energy" type = "text" size = "5"></output>
+				</form>
+				
+				<button onclick ="calculateEnergy()">Calculate</button>
+				<button onclick ="resetForm()">Reset</button>
+				
+			
+			</section>
+			<section>
+				<p><h1>HITS BULLET WOUNDING</h1>Please enter Bullet Weight in Grains, Velocity in FPS, and Diameter in Inches to calculate HITS<br>Small Game: Below 500<br>Medium Game: Between 500-900<br>Large Game: Between 900-1500<br>Dangerous Game: 1500+<br></p>
+				<form id = "form2">
+					BulletWeight: <input name="BulletWeight" type="text" size = "5">
+					BulletVelocity: <input name ="BulletVelocity" type="text" size = "5">
+					BulletDiameter: <input name = "BulletDiameter" type = "text" size = "5">
+					BulletWound: <output name = "Wound" type = "text" size = "5"></output>
+				</form>
+				
+				<button onclick ="calculateWound()">Calculate</button>
+				<button onclick ="resetForm2()">Reset</button>
+				
+			</section>
+			<section>
+				<p><h1>SECTIONAL DENSITY</h1>Please enter Bullet Weight in Grains, and Diameter in Inches to calculate Sectional Density.<br>  This is a measure of a bullets ability to penetrate.<br>Small Game: < .200<br>Medium Game: .201 - .249<br>Large Game: .250 - .300<br>Dangerous Game: .300+</p>
+				<form id = "form3">
+					BulletWeight: <input name="BulletWeight" type="text" size = "5">
+					BulletDiameter: <input name = "BulletDiameter" type = "text" size = "5">
+					SectionalDensity: <output name = "Density" type = "text" size = "5"></output>
+				</form>
+				
+				<button onclick ="calculateSD()">Calculate</button>
+				<button onclick ="resetForm3()">Reset</button>
+				
+			</section>
+			<section>
+				<p><h1>MILLER STABILITY FACTOR</h1>Please enter Bullet Weight in Grains and Bullet Length, Diameter, and Twist Rate in Inches to calculate if your bullet is flying stable.  The science is not perfect but will still give a good indication of whether or not your barrel has the correct twist rate for the bullet you wish to fire.<br>Less than 1: Unstable/Tumbling<br>Between 1 and 1.5: Semi-stable/un-optimized BC<br>Greater than 1.5: Stable<br></p>
+				<form id = "form4">
+					BulletWeight: <input name="BulletWeight" type="text" size = "5">
+					BulletLength: <input name ="BulletLength" type="text" size = "5">
+					BulletDiameter: <input name = "BulletDiameter" type = "text" size = "5">
+					TwistRate: <input name = "TwistRate" type = "text" size = "5">
+					StabilityFactor: <output name = "StabilityFactor" type = "text" size = "5"></output>
+				</form>
+				
+				<button onclick ="calculateStability()">Calculate</button>
+				<button onclick ="resetForm4()">Reset</button>
+				
+			</section>
+
+			<!--<section>
+				<p><h1>BALLISTIC COEFFICIENT</h1>Please enter Range in meters, and Velocity in FPS to calculate the G1 Ballistic Coefficient.<br>  This is a measure of a bullets ability to overcome wind resistance.<br>
+				<form id = "form4">
+					RangeofCalculation: <input name="Range" type="text" size = "5">
+					BulletVelocityatMuzzle: <input name = "BulletVelocity1" type = "text" size = "5">
+					BulletVelocityatRange: <input name = "BulletVelocity2" type = "text" size = "5">
+					BallisticCoefficient: <output name = "Coefficient" type = "text" size = "5"></output>
+				</form>
+				
+				<button onclick ="calculateBC()">Calculate</button>
+				<button onclick ="resetForm4()">Reset</button>
+				
+			</section>-->
+			
+
+		
+	</main>
+
+	<footer>
+		<!--This is just space for a background image-->
+		
+	</footer>
+</body>
+
+
+</html>

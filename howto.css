@@ -1,0 +1,55 @@
+html {
+	background-image: url("pictures/howtobackground1.jpg");
+	background-position: center;
+	background-size: cover;
+
+}
+
+main {
+	
+	border: 5px solid black;
+}
+ul {
+	list-style-type: none;
+	border: 3px solid black;
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+section {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 800px;
+	height: auto;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+
+	box-sizing: border-box;
+	
+}
+section img {
+	box-sizing: border-box;
+	width: 300px;
+	height: 300px;
+	border: 3px solid black;
+	border-radius: 150px;
+	margin-left: 100px;
+}
+section a {
+	float: right;
+	width: 54%;
+	
+
+}
+section ul{
+	float: left;
+	width: 40%;
+	height: 300px;
+}
+section::after{
+	clear: both;
+	content: "";
+	display: table;
+}

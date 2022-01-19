@@ -1,0 +1,268 @@
+html {
+	background-image: url("pictures/loaddatabackground1.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+nav.uses{
+	background-color: inherit;
+	display: flex;	
+	
+}
+nav.uses > ul {
+	display: flex;	
+	padding: 25px 0px;
+}
+nav.uses > ul > li {
+	padding: 0px 50px;
+
+}
+nav.uses > ul > li > a > img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid gray;
+	border-radius: 25px;
+}
+nav.uses > ul > li > a > img:hover{
+	border: 3px solid white;
+}
+
+
+section {
+	margin: 50px 100px;
+	padding: 50px 50px;
+	line-height: 25px;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 25px;
+	text-align: center;
+}
+
+section.big{
+	border: 2px solid gray;
+}
+h1, h3 {
+	color: yellow;
+	font-size: 1.5em;
+}
+footer {
+	margin-top: 0;
+
+}
+/*Main section styles*/
+
+aside#pictures{
+	display: block;
+	
+	
+	padding-left: 50px;
+	box-sizing: border-box;
+
+}
+
+aside#pictures img {
+	float: left;
+	width: 400px;
+	height: 350px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	margin: 25px;
+	
+
+}
+aside#pictures::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+
+footer {
+	border-top: 5px solid black;
+}
+
+aside.loaddatasub{
+	margin-top: 50px;
+	font-weight: bold;
+}
+main.loaddatasub section{
+	margin: 50px 10px;
+	line-height: 2em;
+
+}
+
+
+
+
+
+
+/*==========================
+  Specialized powder tables
+ ===========================*/
+ 
+.specialized{
+	border: double white 5px;
+	padding: 0px;
+	background-color: rgba(120, 150, 180, 0.5);
+
+}
+.specialized h1{
+	color: white;
+	text-shadow: 3px 3px black;
+	letter-spacing: 5px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+td{
+	padding: 10px;
+}
+.tables{
+	
+	float: right;
+	margin: 0px;
+	padding: 5px;
+	background-color: rgba(150, 160, 120, 0.7);
+	border-radius: 0px;
+}
+.tables table{
+	margin: 0px;
+	padding: 0px;
+}
+
+.description{
+	width: 350px;
+	margin: 0px, 0px;
+	padding: 5px;
+	background-color: unset;
+}
+
+.specialized thead{
+	background-color: black;
+	color: white;
+}
+
+.specialized .weight{
+	background-color: gray;
+}
+
+.bulletpics{
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}
+.bulletpics td{
+	padding: 0px;
+	margin: 0px;
+	border: 2px solid black;
+}
+
+
+
+
+/*===============================
+Generic Table Styles
+=================================*/
+
+caption{
+	background: white;
+	color: black;
+	
+}
+
+
+aside.generic{
+	position: fixed;
+	top: 10%;
+	left: 0%;
+	width: auto;
+	border: ridge black 10px;
+	background-color: white;
+	margin: 0px;
+}
+aside.generic p{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	box-sizing: content-box;
+	text-align: center;
+
+}
+aside.generic a{
+	color: rgb(100, 150, 175);
+}
+
+aside.generic a:hover{
+	
+	background-color: rgba(50, 50, 50, 0.7);
+	padding: 4px 10px;
+	border-radius: 2px;
+	color: white;
+	text-decoration: none;
+	border: solid black 1px;
+
+}
+a{
+	text-decoration: none;
+	color: yellow;
+}
+a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+
+
+
+
+.rifles{
+	background-color: rgba(100, 200, 150, 0.5);
+	color: white;
+	border: 5px solid black;
+	
+}
+.generic{
+	margin: 50px;
+	padding: 0px;
+	background-color: unset;
+
+}
+
+
+.generic table{
+	border: solid black 5px;
+	margin-top: 100px;
+	margin-right: 0px;
+	width: 800px;
+	padding: 0px;
+	background-color: rgba(225, 225, 225, 0.5);
+	color: white;
+	border-collapse: collapse;
+}
+
+.powdertitle{
+	background-color: rgb(100, 150, 175);
+	color: white;
+	border-bottom: 5px solid black;
+	font-size: 200%;
+}
+
+/*=============================
+Powder styles
+=============================*/
+.burnRates{
+	text-align: left;
+	border: 2px solid gray;
+	width: 800px;
+	color: white;
+	text-shadow: 2px 2px black;
+	border-collapse: collapse;
+
+}
+.burnRateHead{
+	margin: 50px 10px;
+}
+
+
+
+

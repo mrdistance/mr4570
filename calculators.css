@@ -1,0 +1,49 @@
+html {
+	background-image: url("pictures/calculatorsbackground1.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+section {
+	text-shadow: 2px 2px 1px black;
+	color: white;
+	text-align: center;
+	margin: 50px 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+	
+}
+section h1{
+	
+	box-sizing: border-box;
+	border: 5px solid white;
+	
+	
+}
+main {
+	border: 5px solid black;
+}
+main > p {
+	padding: 25px 100px;
+
+}
+input, button{
+	background-color: white;
+}
+button {
+	padding: 5px;
+	margin: 10px;
+}
+output {
+	background-color: white;
+	color: black;
+	text-shadow: none;
+	font-size: 2em;
+	border: 1px solid black;
+	padding: 1px 10px;
+}
+footer {
+	margin-top: 0px;
+
+}
